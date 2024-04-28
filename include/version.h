@@ -1,0 +1,15 @@
+
+
+#ifndef __HRSCL_VERSION__
+#define __HRSCL_VERSION__
+
+#include "types.h"
+
+
+#define HRSCL_VERSION_MAJOR	1
+#define HRSCL_VERSION_MINOR	0
+#define HRSCL_VERSION		_TOSTRING(HRSCL_VERSION_MAJOR)"."_TOSTRING(HRSCL_VERSION_MINOR)
+
+#define HRSCL_NAME			"HRSCL Upscaler"
+
+#endif /* __HRSCL_VERSION__ */
